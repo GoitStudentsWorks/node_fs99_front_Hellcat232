@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
       <Provider store={store}>
         <PersistGate persistor={persistor} loading={null}>
-          <BrowserRouter>
+          <BrowserRouter basename='/node_fs99_front_Hellcat232'>
             <App />
           </BrowserRouter>
         </PersistGate>
